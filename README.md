@@ -53,6 +53,6 @@ The dataset spans stores in **Toronto (Downtown & North), Montreal, Vancouver, O
 
 ## 📊 Dashboard Pages
 <p align="center">
-<img src="dashboard-preview.png" width="100%">
+<img src="Dashboard Power BI /dashboard-preview.png" width="100%">
 </p>
 
