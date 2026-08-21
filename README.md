@@ -37,12 +37,22 @@ Rows: ~17,445 transactions
 
 Grain: One row per order line item
 
-| Field | Description |
+| **Field** | **Description** |
 |---|---|
-| `OrderID` | Transaction identifier |
-| `OrderDate` | Transaction date |
-| `Store` | Store location |
-| `Product` | Product name |
-| `Revenue` | Total revenue |
+| OrderID, OrderDate, OrderTime | Transaction identifiers and timestamps |
+| Year, Quarter, Month, Day, DayName, Hour | Date/time breakdowns for time-based analysis |
+| Store, City | Store location details |
+| Category, Product, Size | Product hierarchy |
+| Quantity, UnitPrice, Discount | Order line details |
+| Revenue, Cost, Profit | Financial metrics |
+| PaymentMethod | Credit Card / Cash / Debit Card |
+| CustomerType | New / Returning |
 
-The dataset spans stores in Toronto (Downtown & North), Montreal, Vancouver, Ottawa, and Calgary, across five product categories: Coffee, Sandwich, Bakery, Tea, and Desserts.
+The dataset spans stores in **Toronto (Downtown & North), Montreal, Vancouver, Ottawa, and Calgary**, across five product categories: **Coffee, Sandwich, Bakery, Tea, and Desserts**.
+
+
+## 📊 Dashboard Pages
+<p align="center">
+<img src="dashboard-preview.png" width="100%">
+</p>
+
