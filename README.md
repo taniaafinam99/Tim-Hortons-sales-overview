@@ -30,9 +30,13 @@ Users can interact with the dashboard using filters for:
 * Customer Type
 
 ## 🗂️ Dataset
+
 File: Tim_Hortons_Portfolio_Dataset.xlsx
+
 Rows: ~17,445 transactions
+
 Grain: One row per order line item
+
 Field	Description
 OrderID, OrderDate, OrderTime	Transaction identifiers and timestamps
 Year, Quarter, Month, Day, DayName, Hour	Date/time breakdowns for time-based analysis
